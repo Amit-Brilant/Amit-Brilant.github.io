@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Amit Brilant"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -25,10 +25,10 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Central, Israel"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "amitbrilant@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
