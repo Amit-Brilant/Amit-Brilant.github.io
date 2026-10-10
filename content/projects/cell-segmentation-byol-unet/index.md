@@ -53,7 +53,7 @@ highlights:
 
 acknowledgements:
   - <strong>Acknowledgements.</strong> Course project for <em>Deep Learning and its Applications to Signal and Image Processing and Analysis</em> at Ben-Gurion University of the Negev, August 2024.
-  - <strong>Project partner.</strong> Alon Finestein.
+  - <strong>Project partner.</strong> Alon Fainshtein.
   - Data from the <a href="https://celltrackingchallenge.net/2d-datasets/">Cell Tracking Challenge</a> 2D datasets.
 ---
 
