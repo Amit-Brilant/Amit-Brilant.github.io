@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: 'Research & Projects'
 date: 2024-05-19
 type: landing
 
@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: collection
     content:
-      title: Selected Projects
+      title: Research & Projects
       text: ''
       filters:
         folders:

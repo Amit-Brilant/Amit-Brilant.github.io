@@ -55,7 +55,7 @@ sections:
   - block: markdown
     id: projects
     content:
-      title: Projects
+      title: Research & Projects
       text: |
         <div class="project-grid">
         <article class="project-card">
