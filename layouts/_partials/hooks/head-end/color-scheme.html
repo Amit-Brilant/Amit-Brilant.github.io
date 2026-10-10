@@ -1,0 +1,5 @@
+{{/* The site is light only. Without this, Samsung Internet and Chrome's auto dark
+     mode repaint the text light over the light hero image, and it looks washed out.
+     !important: the theme script sets color-scheme: light inline on <html>. */}}
+<meta name="color-scheme" content="only light">
+<style>:root { color-scheme: only light !important; }</style>
