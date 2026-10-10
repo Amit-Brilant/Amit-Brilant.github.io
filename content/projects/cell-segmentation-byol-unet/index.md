@@ -29,6 +29,9 @@ showcase_teaser: hero-results.jpg
 showcase_teaser_alt: Original image, ground truth mask and predicted mask on the PhC-C2DL-PSC dataset
 showcase_teaser_caption: Original image, ground truth and prediction on the complex dataset.
 
+# Tech stack, shown as tags under the title (from the repo's requirements.txt).
+showcase_stack: ["Python", "PyTorch", "U-Net", "BYOL", "OpenCV", "NumPy", "SciPy", "Matplotlib"]
+
 showcase_buttons:
   - name: Code
     url: https://github.com/Amit-Brilant/cell-segmentation-byol-unet

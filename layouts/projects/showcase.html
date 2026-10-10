@@ -17,7 +17,7 @@
 <style>
   :root{
     --ink:#1c1c1e; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff;
-    --accent:#0f766e; --accent-soft:#f0fdfa; --chip:#363636;
+    --accent:#1d4ed8; --accent-soft:#eff6ff; --chip:#363636;
     --maxw:1080px;
   }
   *{box-sizing:border-box}
@@ -44,7 +44,11 @@
   .affil{color:var(--muted); font-size:1rem; margin:0 0 4px}
   .venue{margin:14px 0 0; font-size:.95rem}
   .venue span{display:inline-block; background:var(--accent-soft); color:var(--accent);
-    border:1px solid #ccfbf1; border-radius:999px; padding:5px 16px; font-weight:600}
+    border:1px solid #bfdbfe; border-radius:999px; padding:5px 16px; font-weight:600}
+  .stack{display:flex; flex-wrap:wrap; justify-content:center; gap:8px; list-style:none;
+    padding:0; margin:18px auto 0; max-width:820px}
+  .stack li{font-size:.85rem; font-weight:500; line-height:1.5; color:#1e40af; background:#fff;
+    border:1px solid #bfdbfe; border-radius:999px; padding:3px 12px}
   .buttons{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin:30px 0 44px}
   .btn{display:inline-flex; align-items:center; gap:9px; background:var(--chip); color:#fff;
     border-radius:999px; padding:10px 22px; font-size:.95rem; font-weight:600;
@@ -64,7 +68,7 @@
   .body h2:first-child{border-top:none; padding-top:24px}
   .body h3{font-size:1.12rem; font-weight:700; margin:32px 0 12px; text-align:center}
   .body p, .body ul, .body ol{max-width:820px; margin-left:auto; margin-right:auto}
-  .body p{margin:0 0 16px; text-align:justify}
+  .body p{margin:0 auto 16px}
   .body ul{padding-left:22px; margin-bottom:16px}
   .body li{margin-bottom:11px}
   .body > p > img, .body figure img{margin-left:auto; margin-right:auto}
@@ -119,6 +123,7 @@
     {{ with .Params.showcase_authors }}<p class="authors">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Params.showcase_affiliation }}<p class="affil">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Params.showcase_venue }}<p class="venue"><span>{{ . | safeHTML }}</span></p>{{ end }}
+    {{ with .Params.showcase_stack }}<ul class="stack" aria-label="Tech stack">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
 
     {{ with .Params.showcase_buttons }}
     <div class="buttons">

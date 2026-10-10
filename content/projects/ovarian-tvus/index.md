@@ -30,6 +30,9 @@ showcase_teaser: pipeline.png
 showcase_teaser_alt: Three-stage pipeline from ultrasound image through triage, lesion detection and benign versus malignant classification
 showcase_teaser_caption: A patient is called by the majority vote of their frames.
 
+# Tech stack, shown as tags under the title (from the repo's requirements.txt).
+showcase_stack: ["Python", "PyTorch", "EfficientNet-B7", "YOLOv8", "Segment Anything (SAM)", "XGBoost", "scikit-learn", "Optuna", "SHAP", "Grad-CAM", "OpenCV", "pytest"]
+
 showcase_buttons:
   - name: Code
     url: https://github.com/Amit-Brilant/ovarian-cancer-tvus-pipeline
@@ -145,8 +148,3 @@ A medical imaging result without its boundary conditions is not a result.
   not be read as a screening result
 - Postmenopausal women only. No physical-scale calibration, so geometric descriptors are
   relative within this cohort. Doppler vascularity is not modelled
-
-## Stack
-
-PyTorch, EfficientNet-B7, YOLOv8, Segment Anything (SAM), XGBoost, SHAP, Grad-CAM,
-scikit-learn, pytest, Python 3.10.

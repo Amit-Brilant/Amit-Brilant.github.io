@@ -28,6 +28,9 @@ showcase_venue: B.Sc. Final Project &nbsp;·&nbsp; July 2022
 showcase_teaser: poster.png
 showcase_teaser_alt: Project poster summarising background, goals, methods, results and conclusions
 
+# Tech stack, shown as tags under the title (from the repo's requirements.txt).
+showcase_stack: ["Python", "PyTorch", "ConvNeXt", "timm", "Albumentations", "Kornia", "scikit-learn", "OpenCV", "Weights & Biases"]
+
 showcase_buttons:
   - name: Code
     url: https://github.com/Amit-Brilant/rcm-nevi-composite-pattern-classification
