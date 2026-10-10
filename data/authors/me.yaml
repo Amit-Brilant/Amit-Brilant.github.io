@@ -1,0 +1,61 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Amit Brilant
+  given: Amit
+  family: Brilant
+# Non-breaking spaces inside the second part, so the line breaks only after the dot.
+role: Data Scientist · Computer Vision & Deep Learning
+bio: |
+  I am a data scientist specializing in machine learning, deep learning, computer
+  vision and image processing, with nearly 4 years as a Data & AI Analyst at a
+  medical device company. I have extensive hands-on experience analyzing clinical
+  trial data and developing internal AI tools with LLMs. I hold an M.Sc. in
+  Electrical and Computer Engineering, with thesis research in medical imaging
+  (paper under journal review), and a B.Sc. in Medical Engineering.
+
+# No affiliation under the photo (decision 2026-10-10).
+
+# Short version for the hero (degree + institution only). The full entries,
+# with dates, thesis and major, are in cv.yaml and the timeline below.
+education:
+  - degree: M.Sc. Electrical and Computer Engineering
+    institution: Ben-Gurion University of the Negev
+  - degree: B.Sc. Medical Engineering
+    institution: Afeka Tel Aviv Academic College of Engineering
+
+links:
+  - icon: brands/github
+    url: https://github.com/Amit-Brilant
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/amitbrilant/
+  - icon: at-symbol
+    url: 'mailto:amitbrilant@gmail.com'
+
+# Education, experience and skills are rendered from data/authors/cv.yaml and
+# content/_index.md, so they appear once on the page.
+
+languages:
+  - name: Hebrew
+    label: Native
+  - name: English
+    label: Full professional
+
+awards:
+  - title: Deep Learning Specialization
+    awarder: DeepLearning.AI, Coursera
+    date: "2023-01-01"
+    icon: hero/academic-cap
+  - title: Machine Learning Specialization
+    awarder: DeepLearning.AI, Coursera
+    date: "2022-09-01"
+    icon: hero/academic-cap
+  - title: Probability & Statistics for Machine Learning & Data Science
+    awarder: DeepLearning.AI, Coursera
+    date: "2022-06-01"
+    icon: hero/chart-bar
+  - title: Deep Learning for Computer Vision
+    awarder: University of Michigan
+    date: "2022-03-01"
+    icon: hero/eye

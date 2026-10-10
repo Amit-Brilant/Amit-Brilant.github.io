@@ -1,0 +1,54 @@
+# Experience and education for the resume-experience block on the home page.
+# Kept separate from me.yaml because resume-biography-3 also renders
+# `education` from its profile, and education should appear only once.
+# Mirrors career.yaml. Experience copied verbatim from it on 2026-10-10.
+schema: hugoblox/author/v1
+slug: cv
+is_owner: false
+name:
+  display: Amit Brilant
+
+experience:
+  - role: Data & AI Analyst
+    org: EyeYon Medical
+    start: 2023-01-01
+    end: ''
+    icon: briefcase
+    summary: |
+      - Clean, validate and analyze complex clinical trial data from EDC systems, detecting errors and anomalies, and deliver EDA, statistical analyses, recurring reports and dashboards used in ongoing trial management.
+      - Surfaced patterns in clinical outcomes through in-depth statistical analyses, prompting internal investigations into patient management and the device's biological effects.
+      - Built Python pipelines that extract data from multiple EDC sources, and consolidated patient, surgeon, clinical trial and commercial data into one structured data layer, presenting insights to management, R&D, medical, product and commercial teams to support data-driven decisions.
+      - Mapped bottlenecks across departments and built internal AI tools with LLM APIs: a publications portal shared with physicians, automated monitoring of news, literature, tenders and regulatory updates, and a RAG chatbot prototype over company knowledge.
+      - Led company-wide training on ChatGPT, Claude and building AI agents.
+  - role: Graduate Research Student, Computer Vision & Deep Learning
+    org: Ben-Gurion University of the Negev
+    start: 2024-06-01
+    end: 2026-09-30
+    icon: briefcase
+    summary: |
+      - Led an M.Sc. research project in collaboration with Meir Medical Center: designed, trained and evaluated deep-learning models for ovarian carcinoma diagnosis from ultrasound.
+  - role: Data Collection Assistant
+    org: Binah.ai
+    start: 2021-12-01
+    end: 2022-10-31
+    icon: briefcase
+    summary: |
+      - Collected vital-sign data with gold-standard devices and ran validation and accuracy tests for a video-based health app.
+
+education:
+  - degree: M.Sc. Electrical and Computer Engineering
+    institution: Ben-Gurion University of the Negev
+    start: 2023-12-01
+    end: 2026-09-30
+    summary: |
+      - Thesis: *Detection and Diagnosis of Ovarian Carcinoma from Complex Cysts Using Computer Vision and Ultrasound Imaging*, in collaboration with Meir Medical Center. Paper under journal review.
+      - Advisors: Prof. Ofer Hadar and Prof. Oshrit Hoffer.
+      - Focus: computer vision, machine and deep learning, image processing.
+  - degree: B.Sc. Medical Engineering
+    institution: Afeka Tel Aviv Academic College of Engineering
+    start: 2018-10-01
+    end: 2022-07-31
+    summary: |
+      - Major: Data Science and Medical Information Systems.
+      - Final project with Sheba Medical Center: deep learning for early melanoma detection from confocal microscopy.
+      - AfekaVision student computer-vision group (Nov 2021 to Jul 2022): weekly Kaggle competitions and state-of-the-art paper reviews.
