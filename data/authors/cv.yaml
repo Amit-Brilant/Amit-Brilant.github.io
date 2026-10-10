@@ -15,10 +15,10 @@ experience:
     end: ''
     icon: briefcase
     summary: |
-      - Clean, validate and analyze complex clinical trial data from EDC systems, detecting errors and anomalies, and deliver EDA, statistical analyses, recurring reports and dashboards used in ongoing trial management.
-      - Surfaced patterns in clinical outcomes through in-depth statistical analyses, prompting internal investigations into patient management and the device's biological effects.
-      - Built Python pipelines that extract data from multiple EDC sources, and consolidated patient, surgeon, clinical trial and commercial data into one structured data layer, presenting insights to management, R&D, medical, product and commercial teams to support data-driven decisions.
-      - Mapped bottlenecks across departments and built internal AI tools with LLM APIs: a publications portal shared with physicians, automated monitoring of news, literature, tenders and regulatory updates, and a RAG chatbot prototype over company knowledge.
+      - Clean, validate and analyze clinical trial data from EDC systems, and deliver the statistical analyses, reports and dashboards used to manage ongoing trials.
+      - Identified patterns in clinical outcomes that led to internal investigations into patient management and the device's biological effects.
+      - Built Python data pipelines and a single data layer for clinical, patient and commercial data, and present insights to management and to R&D, medical and commercial teams.
+      - Built internal AI tools with LLM APIs: a publications portal for physicians, automated monitoring of news, literature and regulatory updates, and a RAG chatbot prototype.
       - Led company-wide training on ChatGPT, Claude and building AI agents.
   - role: Graduate Research Student, Computer Vision & Deep Learning
     org: Ben-Gurion University of the Negev
