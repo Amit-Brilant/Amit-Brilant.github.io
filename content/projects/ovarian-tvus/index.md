@@ -56,7 +56,7 @@ highlights:
     text: De-identified images, annotations, clinical variables, partitions and trained weights, published under CC BY 4.0.
 
 acknowledgements:
-  - <strong>Acknowledgements.</strong> M.Sc. thesis at Ben-Gurion University of the Negev, supervised by Prof. Ofer Hadar and Prof. Oshrit Hoffer. Clinical data from Meir Medical Center.
+  - <strong>Acknowledgements.</strong> Supervised by Prof. Ofer Hadar and Prof. Oshrit Hoffer (Ben-Gurion University of the Negev). Clinical data from Meir Medical Center.
   - This work is for research purposes only. It is not a clinical device.
 ---
 

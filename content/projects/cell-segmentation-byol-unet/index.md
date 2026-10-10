@@ -22,9 +22,9 @@ image:
 layout: showcase
 
 showcase_title: Cell Segmentation with a Self-Supervised Approach Using BYOL and UNet
-showcase_authors: Amit Brilant, Alon Finestein
+showcase_authors: Amit Brilant
 showcase_affiliation: Ben-Gurion University of the Negev
-showcase_venue: Deep Learning and its Applications to Signal and Image Processing and Analysis &nbsp;·&nbsp; M.Sc. course project, August 2024
+showcase_venue: M.Sc. Course Project &nbsp;·&nbsp; Deep Learning and its Applications to Signal and Image Processing and Analysis &nbsp;·&nbsp; August 2024
 showcase_teaser: hero-results.jpg
 showcase_teaser_alt: Original image, ground truth mask and predicted mask on the PhC-C2DL-PSC dataset
 showcase_teaser_caption: Original image, ground truth and prediction on the complex dataset.
@@ -52,7 +52,8 @@ highlights:
     text: The decoder gets the whole gradient budget first, then the encoder is released for the final third. This schedule outperformed the alternatives.
 
 acknowledgements:
-  - <strong>Acknowledgements.</strong> Joint course project with Alon Finestein, for <em>Deep Learning and its Applications to Signal and Image Processing and Analysis</em> at Ben-Gurion University of the Negev, August 2024.
+  - <strong>Acknowledgements.</strong> Course project for <em>Deep Learning and its Applications to Signal and Image Processing and Analysis</em> at Ben-Gurion University of the Negev, August 2024.
+  - <strong>Project partner.</strong> Alon Finestein.
   - Data from the <a href="https://celltrackingchallenge.net/2d-datasets/">Cell Tracking Challenge</a> 2D datasets.
 ---
 

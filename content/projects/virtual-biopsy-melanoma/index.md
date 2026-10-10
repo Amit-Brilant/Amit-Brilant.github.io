@@ -23,8 +23,8 @@ layout: showcase
 
 showcase_title: Automated Classification of Reflectance Confocal Microscopy (RCM) Images of Nevi with Composite Patterns using Deep Learning and Computer Vision Algorithms
 showcase_authors: Amit Brilant
-showcase_affiliation: Afeka Tel-Aviv Academic College of Engineering &nbsp;·&nbsp; Sheba Medical Center
-showcase_venue: B.Sc. Final Project &nbsp;·&nbsp; July 2022
+showcase_affiliation: Afeka Tel-Aviv Academic College of Engineering &nbsp;·&nbsp; in collaboration with Sheba Medical Center
+showcase_venue: B.Sc. Final Project &nbsp;·&nbsp; Advisors Dr. Eyal Katz and Prof. Alon Scope &nbsp;·&nbsp; July 2022
 showcase_teaser: poster.png
 showcase_teaser_alt: Project poster summarising background, goals, methods, results and conclusions
 
@@ -54,7 +54,8 @@ highlights:
     text: Small and heavily imbalanced. A custom annotation viewer was built to improve label quality at the source.
 
 acknowledgements:
-  - <strong>Acknowledgements.</strong> Supervised by Dr. Eyal Katz (Afeka Tel-Aviv Academic College of Engineering) and Prof. Alon Scope (Sheba Medical Center). Thanks to Prof. Scope's research team for their work on data collection and labelling, and to project partner Guy Kabiri.
+  - <strong>Acknowledgements.</strong> Supervised by Dr. Eyal Katz (Afeka Tel-Aviv Academic College of Engineering) and Prof. Alon Scope (Sheba Medical Center). Thanks to Prof. Scope's research team for their work on data collection and labelling.
+  - <strong>Project partner.</strong> Guy Kabiri.
   - The dataset is patient-derived clinical data and is not publicly available. Published as an academic portfolio record. All rights reserved.
 ---
 

@@ -1,0 +1,54 @@
+{{/* Email links (2026-10-10). A bare mailto: does nothing visible when no mail
+     app is set up, so a click copies the address and shows it, with a link to
+     open the mail app. */}}
+<style>
+  .email-toast { position: fixed; left: 50%; bottom: 1.5rem; transform: translate(-50%, 1rem); z-index: 100;
+    display: flex; align-items: center; gap: 0.9rem; max-width: calc(100vw - 2rem);
+    padding: 0.7rem 1rem; border-radius: 12px; background: #0f172a; color: #fff;
+    font-size: 0.9rem; box-shadow: 0 10px 28px rgba(15, 23, 42, 0.25);
+    opacity: 0; pointer-events: none; transition: opacity 0.2s ease, transform 0.2s ease; }
+  .email-toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+  .email-toast a { color: #93c5fd; font-weight: 600; white-space: nowrap; }
+  @media (prefers-reduced-motion: reduce) { .email-toast { transition: none; } }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var toast, timer;
+    document.querySelectorAll('a[href^="mailto:"]').forEach(function (a) {
+      a.title = a.getAttribute("href").slice(7);
+    });
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest('a[href^="mailto:"]');
+      if (!a || a.closest(".email-toast")) return;
+      e.preventDefault();
+      var addr = a.getAttribute("href").slice(7);
+      var done = function (copied) {
+        if (!toast) {
+          toast = document.createElement("div");
+          toast.className = "email-toast";
+          toast.setAttribute("role", "status");
+          document.body.appendChild(toast);
+        }
+        toast.innerHTML = "<span>" + (copied ? "Copied: " : "") + addr + "</span>" +
+          '<a href="mailto:' + addr + '">Open mail app</a>';
+        toast.classList.add("show");
+        clearTimeout(timer);
+        timer = setTimeout(function () { toast.classList.remove("show"); }, 6000);
+      };
+      var legacy = function () {
+        var ta = document.createElement("textarea");
+        ta.value = addr; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (err) {}
+        ta.remove();
+        done(ok);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(addr).then(function () { done(true); }, legacy);
+      } else {
+        legacy();
+      }
+    });
+  });
+</script>
