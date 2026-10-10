@@ -17,13 +17,14 @@ bio: |
 
 # No affiliation under the photo (decision 2026-10-10).
 
-# Short version for the hero (degree + institution only). The full entries,
+# Short version for the hero (degree, institution and graduation year; the year
+# sits in the institution line so it stays on one line). The full entries,
 # with dates, thesis and major, are in cv.yaml and the timeline below.
 education:
   - degree: M.Sc. Electrical and Computer Engineering
-    institution: Ben-Gurion University of the Negev
+    institution: Ben-Gurion University of the Negev · 2026
   - degree: B.Sc. Medical Engineering
-    institution: Afeka Tel Aviv Academic College of Engineering
+    institution: Afeka Tel Aviv Academic College of Engineering · 2022
 
 links:
   - icon: brands/github
