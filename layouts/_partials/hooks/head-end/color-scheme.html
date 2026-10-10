@@ -1,5 +1,11 @@
-{{/* The site is light only. Without this, Samsung Internet and Chrome's auto dark
-     mode repaint the text light over the light hero image, and it looks washed out.
-     !important: the theme script sets color-scheme: light inline on <html>. */}}
-<meta name="color-scheme" content="only light">
-<style>:root { color-scheme: only light !important; }</style>
+{{/* Phones in dark mode: Samsung Internet and Chrome repaint light-only sites
+     ("force dark"), which washed out the hero text. Samsung Internet only backs
+     off when the page declares dark support ("light dark"; it ignores "only
+     light"), so the page declares both and pins its own light colours, so it
+     looks the same either way. !important: the theme script sets color-scheme:
+     light inline on <html>. */}}
+<meta name="color-scheme" content="light dark">
+<style>
+  :root { color-scheme: light dark !important; }
+  html, body { background-color: #ffffff; color: #111827; }
+</style>
