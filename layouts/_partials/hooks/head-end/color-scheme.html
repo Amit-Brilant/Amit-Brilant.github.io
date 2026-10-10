@@ -8,4 +8,11 @@
 <style>
   :root { color-scheme: light dark !important; }
   html, body { background-color: #ffffff; color: #111827; }
+  /* Some Samsung Internet versions force dark mode anyway. They darken colours
+     and lighten text, but leave background images alone, so the light peaks
+     image behind the hero text washed it out. On a device in dark mode the hero
+     keeps only its background colour, which every browser darkens with the text. */
+  @media (prefers-color-scheme: dark) {
+    .home-section-bg.bg-image { background-image: none !important; }
+  }
 </style>
