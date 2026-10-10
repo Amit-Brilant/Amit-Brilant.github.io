@@ -38,7 +38,7 @@ sections:
       name:
         size: md
       avatar:
-        size: medium
+        size: small
         shape: circle
 
   # Experience first, then Education, same card format. From data/authors/cv.yaml.
